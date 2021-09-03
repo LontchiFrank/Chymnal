@@ -1,0 +1,4 @@
+{
+  "PORT": "5000",
+  "mongoURI": "mongodb+srv://Hymnal:Hymnal@cluster0.gkzx9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+}

@@ -1,0 +1,144 @@
+.container-fluid {
+  width: 100vw;
+  height: 100vh;
+}
+.r1 {
+  width: 100%;
+  height: 100%;
+}
+.big-row {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.main-box {
+  width: 100vw;
+  height: 100vh;
+}
+.fa-plus {
+  color: #1e6091;
+}
+.hold {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 93%;
+}
+.boite {
+  width: 100%;
+  height: 10%;
+  margin-top: 7em;
+}
+.boite1 {
+  width: 100%;
+  height: 10%;
+  margin-top: 7em;
+}
+.icon-box {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.icon-box :hover {
+  /* color: #023e8a; */
+  transform: scale(1.4);
+  transition: 0.3s;
+}
+.box {
+  width: 50vw;
+  height: 80vh;
+  border-radius: 18px;
+  padding: 2em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: white;
+}
+.box1 {
+  width: 100%;
+  height: 100%;
+}
+.box:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.social-text {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  /* padding: 0.7rem 0; */
+  font-size: 1rem;
+}
+.l1 {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  color: #1e6091;
+}
+.l2 {
+  width: 100%;
+  height: 12vh;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+.bot {
+  width: 50%;
+  height: 50%;
+}
+.social-icon {
+  height: 46px;
+  width: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.45rem;
+  color: #333;
+  border-radius: 50%;
+  border: 1px solid #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  color: #4481eb;
+  border-color: #4481eb;
+}
+.bton {
+  outline: none;
+  border: none;
+}
+.row1 {
+  width: 100%;
+  height: 100%;
+}
+.cards {
+  width: 200px;
+  height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  border-radius: 18px;
+}
+.fix {
+  width: 100%;
+  height: 100%;
+}
+.tit {
+  width: 100%;
+  height: 10%;
+}
+.cardshow {
+  width: 100%;
+  height: 90%;
+}
