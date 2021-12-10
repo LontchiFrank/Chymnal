@@ -15,7 +15,7 @@ const Sidebar = () => {
     <div
       style={{ display: "flex", height: "100vh", overflow: "scroll initial" }}
     >
-      <CDBSidebar textColor="#fff" backgroundColor="#184e77">
+      <CDBSidebar textColor="#fff" backgroundColor="#0166ff">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large "></i>}>
           <a
             href="/"
@@ -66,10 +66,6 @@ const Sidebar = () => {
           </div>
         </CDBSidebarFooter>
       </CDBSidebar>
-      <Switch>
-        <Route exact path="/tables" component={Table} />
-        <Route exact path="/" component={DashBoard} />
-      </Switch>
     </div>
   );
 };

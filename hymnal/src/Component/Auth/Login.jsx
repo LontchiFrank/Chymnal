@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { connect } from "react-redux";
 import { Redirect } from "react-router-dom";
 import { Form, Button } from "react-bootstrap";
-import { login } from "../actions/auth";
+// import { login } from "../actions/auth";
 import { setAlert } from "../actions/alert";
 import PropTypes from "prop-types";
 function Login({ login, isAuthenticated, setAlert }) {
@@ -136,4 +136,4 @@ const mapStateToProps = (state) => ({
   isAuthenticated: state.auth.isAuthenticated,
 });
 
-export default connect(mapStateToProps, { login, setAlert })(Login);
+// export default connect(mapStateToProps, { login, setAlert })(Login);

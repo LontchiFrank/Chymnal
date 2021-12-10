@@ -8,6 +8,9 @@ import store from "./store";
 import setAuthToken from "./Component/utils/setAuthToken";
 import { Provider } from "react-redux";
 import { Fragment } from "react";
+import Table from "./Layout/Table";
+import DashBoard from "./Layout/DashBoard";
+import GlobalLayout from "./Layout/GlobalLayout";
 // import { loadUser } from "./Component/actions/auth";
 import PrivateRoute from "./Component/routing/PrivateRoute";
 
@@ -21,13 +24,21 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-        <Fragment>
-          <Alert />
-          <Switch>
+        <GlobalLayout>
+          <Fragment>
+            <Alert />
+            {/* <Switch>
             <Route exact path="/" component={Login} />
             <PrivateRoute exact path="/dashboard" component={Sidebar} />
-          </Switch>
-        </Fragment>
+          </Switch> */}
+
+            <Switch>
+              {/* <Route exact path="/" component={GlobalLayout} /> */}
+              <Route exact path="/tables" component={Table} />
+              <Route exact path="/" component={DashBoard} />
+            </Switch>
+          </Fragment>
+        </GlobalLayout>
       </Router>
     </Provider>
   );
