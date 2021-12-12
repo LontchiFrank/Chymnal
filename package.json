@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "axios": "^0.24.0",
     "bcryptjs": "^2.4.3",
     "bootstrap": "^5.0.0-alpha1",
     "concurrently": "^6.2.1",

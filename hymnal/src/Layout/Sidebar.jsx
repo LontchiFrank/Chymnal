@@ -13,7 +13,11 @@ import DashBoard from "./DashBoard";
 const Sidebar = () => {
   return (
     <div
-      style={{ display: "flex", height: "100vh", overflow: "scroll initial" }}
+      style={{
+        display: "flex",
+        height: "100vh",
+        overflow: "scroll initial",
+      }}
     >
       <CDBSidebar textColor="#fff" backgroundColor="#0166ff">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large "></i>}>

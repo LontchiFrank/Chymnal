@@ -20,7 +20,7 @@ import axios from "axios";
 //   }
 // };
 
-//Login User
+// Login User
 
 // export const login =
 //   ({ name, password }) =>
@@ -48,17 +48,17 @@ import axios from "axios";
 //       });
 //     }
 //   };
-export const getCurrentHymns = () => async (dispatch) => {
-  try {
-    const res = await axios.get("/getAll");
-    dispatch({
-      type: FETCH_HYMNS,
-      payload: res.data,
-    });
-  } catch (err) {
-    dispatch({
-      type: FETCH_HYMNS_ERROR,
-      payload: { msg: err.response.message, status: err.response.status },
-    });
-  }
-};
+// export const getCurrentHymns = () => async (dispatch) => {
+//   try {
+//     const res = await axios.get("/getAll");
+//     dispatch({
+//       type: FETCH_HYMNS,
+//       payload: res.data,
+//     });
+//   } catch (err) {
+//     dispatch({
+//       type: FETCH_HYMNS_ERROR,
+//       payload: { msg: err.response.message, status: err.response.status },
+//     });
+//   }
+// };

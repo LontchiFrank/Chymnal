@@ -129,7 +129,7 @@
 }
 .cards {
   width: 70%;
-  height: 50%;
+  height: 45%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
     rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
   border-radius: 8px;
@@ -153,10 +153,11 @@
 .cardshow {
   width: 100%;
   height: 100%;
-
+  font-family: "Poppins", "sans-serif";
   display: flex;
   justify-content: center;
-  /* flex-wrap: wrap; */
+  gap: 10px;
+  flex-wrap: wrap;
 }
 .mainPage {
   width: 100vw;
@@ -196,4 +197,48 @@
   width: 98%;
   height: 98%;
   background-color: white;
+}
+.card-headers {
+  width: 100%;
+  height: 30%;
+}
+.card-body {
+  width: 100%;
+  height: 60%;
+}
+.card-footers {
+  width: 100%;
+  height: 20%;
+}
+.hymnNum {
+  width: 25%;
+  height: fit-content;
+  border-radius: 7px;
+  /* border: 1px solid black; */
+}
+.topic {
+  width: 100%;
+  height: fit-content;
+}
+.hymnNum h4 {
+  font-size: 20px;
+}
+.topic h2 {
+  color: #272727;
+  font-size: 16px;
+  font-weight: 500;
+}
+.corp p {
+  font-size: 10px;
+  color: #535353;
+}
+.foot {
+  width: fit-content;
+  height: fit-content;
+  text-align: left;
+  border-radius: 4px;
+}
+.foot h2 {
+  font-size: 8px;
+  text-align: center;
 }

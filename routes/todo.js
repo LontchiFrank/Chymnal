@@ -25,7 +25,7 @@ router.put("/edit/:todoID", Auth, async (req, res) => {
       new: true,
     });
     if (!editToDo) {
-      return res.status(400).json({ msg: "no such     Todo" });
+      return res.status(400).json({ msg: "no such Todo" });
     }
     res.json({ editToDo });
   } catch (error) {
@@ -35,7 +35,7 @@ router.put("/edit/:todoID", Auth, async (req, res) => {
 });
 
 //get all todo
-router.get("/getAll", Auth, async (req, res) => {
+router.get("/getAll", async (req, res) => {
   try {
     let getAll = await Todo.find({ User: req.user.id }).sort({
       date: -1,
